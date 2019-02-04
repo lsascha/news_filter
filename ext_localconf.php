@@ -12,6 +12,7 @@ if (isset($vars['search']) && is_array($vars['search'])) {
 }
 
 $GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['classes']['Domain/Repository/CategoryRepository'][] = $_EXTKEY;
+$GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['classes']['Domain/Repository/NewsRepository'][] = $_EXTKEY;
 
 // For 7x
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_befunc.php']['getFlexFormDSClass'][]
